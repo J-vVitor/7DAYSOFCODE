@@ -1,0 +1,22 @@
+header{
+    display:flex;
+    gap: 20px;
+    padding: 10px;
+    align-items:center;
+    margin-top:10px;
+
+}
+
+header img{
+    border-radius:50%;
+    width: 20%;
+}
+
+
+header h1{
+    color:#464646;
+}
+
+header p{
+    color:#A3A3A3;
+}
