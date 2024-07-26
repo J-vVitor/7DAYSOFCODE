@@ -1,4 +1,5 @@
 @import url(/assets/styles/header.css);
+@import url(agendamentos.css);
 
 *{
     margin:0;

@@ -1,0 +1,31 @@
+.agendamentos{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_agendamento{
+    border:1px solid red;
+    padding:10px;
+    background-color:lightcyan;
+    border-radius:20px;
+    width: 90%;
+}
+
+.div_agendamento img{
+    border-radius:50%;
+    width: 13%;
+    height:13%;
+}
+
+.primeira_div_agendamento{
+    padding:10px;
+    display:flex;
+    border:1px solid blue;
+}
+
+.div_interna_agendamentos{
+    border:1px solid gold;
+    margin:5px;
+}
