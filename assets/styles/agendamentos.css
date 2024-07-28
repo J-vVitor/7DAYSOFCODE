@@ -1,36 +1,52 @@
+body{
+    background-color:#FAF8FE;
+}
+
 .agendamentos{
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    margin-top:30px;
+}
+
+.agendamentos h2{
+    color:#464646;
+    width: 80%;
 }
 
 .div_agendamento{
-    border:1px solid red;
     padding:20px;
-    background-color:#FBF8FF;
+    background-color:#ffffff;
     border-radius:20px;
-    width: 90%;
+    width: 94%;
 }
 
 .foto_paciente{
     border-radius:50%;
-    width: 13%;
+    width: 16%;
     height:13%;
+    margin-right: 10px;
+}
+
+.comentario_img{
+    width:18%;
 }
 
 .primeira_div_agendamento{
     padding:10px;
     display:flex;
-    border:1px solid blue;
     align-items: center;
 }
 
 .div_interna_agendamentos{
-    border:1px solid gold;
     width: 80%;
     margin:5px;
     padding:5px;
+}
+
+.nome_paciente{
+    color: #464646;
 }
 
 .fonte_cinza{
@@ -42,3 +58,40 @@
     gap: 4px;
 }
 
+.linha_divisao{
+    border:1px solid #ECECEC;
+    width:100%;
+    display:flex;
+    margin:4px;
+}
+
+.botos_div{
+    display:flex;
+    justify-content: space-around;
+}
+
+.botoes{
+    padding:12px;
+    border-radius:10px;
+    border:none;
+}
+
+#botao_laranja{
+    background-color:#FFB050;
+    color:#ffffff;
+}
+
+#botao_branco{
+    border:1px solid #ECECEC;
+    background-color:#ffffff;
+    color:black;
+}
+
+
+.horario_agendamento{
+    margin-top:20px;
+}
+
+.horario_agendamento p{
+    margin:10px
+}
