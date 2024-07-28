@@ -30,7 +30,7 @@ body{
 }
 
 .comentario_img{
-    width:18%;
+    width:16%;
 }
 
 .primeira_div_agendamento{
@@ -85,6 +85,12 @@ body{
     border:1px solid #ECECEC;
     background-color:#ffffff;
     color:black;
+}
+
+#botao_endereco{
+    width:100%;
+    color:#ffffff;
+    background-color:#4894FF;
 }
 
 
