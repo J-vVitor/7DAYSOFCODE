@@ -1,10 +1,43 @@
 #caixa_eclipse{
     margin: 10px;
-    position: relative;
+    position: fixed;
     bottom: 54px;
-    left:70%;
+    left:74%;
+    top: 70%;
     width:17%
 }
+
+#menu_lateral_btn_localizacao , #menu_lateral_btn_camera{
+    position: fixed;
+    display: flex;
+    left:10%;
+}
+
+#menu_lateral_btn_localizacao{
+    top: 47%;
+}
+
+#menu_lateral_btn_camera{
+    top: 60%;
+}
+
+.menu_lateral ul li p {
+    background-color: green;
+    height: 30px;
+    border-radius: 24px;
+    display:flex;   
+    flex-direction:row;
+    padding:9px;
+    font-size:12px;
+}
+
+.menu_lateral ul li{
+    display: flex;
+    align-items:center;
+    width:90%;
+    justify-content:space-between;
+}
+
 
 
 
