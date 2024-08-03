@@ -98,3 +98,63 @@
 .horario_agendamento p{
     margin:10px
 }
+
+
+
+/* VERSÃO PARA TABLET */
+
+@media screen and (min-width:700px){
+
+    div.div_agendamento{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+
+    .nome_paciente{
+        width:107%;
+    }
+
+    img.comentario_img{
+        display:flex;
+        left: 70%;
+    }
+
+
+    .agendamento_hoje{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:20px;
+        gap: 30px;
+    }
+
+    .div_agendamento{
+        width: 46%;
+    }
+
+    .agendamento_amanha{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:20px;
+        gap:30px;
+    }
+}
+
+
+
+/* VERSÃO DESKTOP */
+
+@media screen and (min-width:768px){
+    .div_agendamento{
+        width: 30%;
+    }
+
+    .primeira_div_agendamento{
+        padding: 0;
+    }
+
+    .agendamento_hoje{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:20px;
+        gap: 10px;
+    }
+}

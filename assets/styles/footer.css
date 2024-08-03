@@ -1,46 +1,47 @@
 /* MENU LATERAL */
 
 
-#caixa_eclipse{
+#caixa_eclipse {
     margin: 10px;
     position: fixed;
     bottom: 54px;
-    left:74%;
+    left: 74%;
     top: 70%;
-    width:17%;
+    width: 17%;
 }
 
-#menu_lateral_btn_localizacao , #menu_lateral_btn_camera{
+#menu_lateral_btn_localizacao,
+#menu_lateral_btn_camera {
     position: fixed;
     display: flex;
-    left:10%;
+    left: 10%;
 }
 
-#menu_lateral_btn_localizacao{
+#menu_lateral_btn_localizacao {
     top: 47%;
 }
 
-#menu_lateral_btn_camera{
+#menu_lateral_btn_camera {
     top: 60%;
 }
 
 
-.menu_lateral ul li{
+.menu_lateral ul li {
     display: flex;
-    align-items:center;
-    width:90%;
-    justify-content:right;
+    align-items: center;
+    width: 90%;
+    justify-content: right;
 }
 
-#lista_flutuante,input{
-    display:none;
+#lista_flutuante,
+input {
+    display: none;
 }
 
 
-#btn_check:checked ~ #lista_flutuante{
-    display:block;
+#btn_check:checked~#lista_flutuante {
+    display: block;
 }
-
 
 
 /* FOOTER POR COMPLETO */
@@ -48,23 +49,23 @@
 
 
 
-footer{
-    background-color:#ffffff;
+footer {
+    background-color: #ffffff;
     position: fixed;
     display: flex;
     z-index: 10000;
     top: 91%;
     width: 100%;
-    border-radius:13px 13px 0px 0px;
+    border-radius: 13px 13px 0px 0px;
 }
 
-footer nav{
+footer nav {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-footer nav span{
+footer nav span {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -72,17 +73,40 @@ footer nav span{
     padding: 8px;
 }
 
-nav span img{
+footer nav span img {
     width: 20px;
 }
 
-footer span{
+footer span {
     display: flex;
     width: 100%;
 }
 
 
-footer span a{
+footer span a {
     text-decoration: none;
     color: #C8C8C8;
+}
+
+
+/* VERSÃO PARA TABLET */
+
+@media screen and (Min-width:700px) {
+    #caixa_eclipse {
+        margin: 10px;
+        position: fixed;
+        bottom: 54px;
+        left: 86%;
+        top: 70%;
+        width: 17%;
+    }
+}
+
+
+/* VERSÃO PARA DESKTOP */
+
+@media screen and (Min-width:768px){
+    #caixa_eclipse{
+        left:93.6%;
+    }
 }
